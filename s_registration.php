@@ -41,7 +41,7 @@
 
             <tr>
                 <td><label for = "contact">Contact Number:</label></td>
-                <td><input type = "tel" id = "contact" name = "contact" pattern = "[0-9]{10}" required></td>
+                <td><input type = "tel" id = "contact" name = "contact" pattern = "[0-9]{11}" required></td>
             </tr>
 
             <tr>
