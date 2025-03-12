@@ -16,7 +16,7 @@
             </tr>
 
             <tr>
-                <td><lable for = "owner_name">Owner Name:</label></td>
+                <td><label for = "owner_name">Owner Name:</label></td>
                 <td><input type = "text" id = "owner_name" name = "owner_name"></td>
             </tr>
 
