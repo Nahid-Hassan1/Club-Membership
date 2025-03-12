@@ -8,7 +8,7 @@
 <body>
 
     <h2>Seller Membership Registration Form</h2>
-    <form action="#" method="post">
+    <form action="s_registration_success.php" method="post">
         <table border="1" cellpadding="10">
             <tr>
                 <td><label for = "shop_name"> Shop Name: </label></td>
