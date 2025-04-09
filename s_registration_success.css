@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #c1ddcc; 
+    padding: 80px;
+    text-align: center;
+    color: #000000;
+}
+
+
+h2 {
+    color: rgb(71, 97, 171);;
+    font-size: 30px;
+}
+
+
+p {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+
+a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #6ed9ac;
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+    margin-top: 10px;
+    font-weight: bold;
+    text-decoration: none;
+
+
+}
+
+a:hover {
+    background-color: #2acec6;
+}
