@@ -16,7 +16,7 @@
         <table border="1" cellpadding="10">
             <tr>
                 <td><label for = "shop_name"> Shop Name: </label></td>
-                <td><input type = "text" id = "shop_name" name = "shop_name" required></td>
+                <td><input type = "text" id = "shop_name" name = "shop_name" ></td>
             </tr>
 
             <tr>
@@ -40,12 +40,12 @@
 
             <tr>
                 <td><label for = "license">Upload Business License:</label></td>
-                <td><input type = "file" id = "license" name = "license" accept = ".pdf,.jpg,.png" required></td>
+                <td><input type = "file" id = "license" name = "license" accept = ".pdf,.jpg,.png" ></td>
             </tr>
 
             <tr>
                 <td><label for = "contact">Contact Number:</label></td>
-                <td><input type = "tel" id = "contact" name = "contact" pattern = "[0-9]{11}" required></td>
+                <td><input type = "tel" id = "contact" name = "contact" pattern = "[0-9]{11}" ></td>
             </tr>
 
             <tr>

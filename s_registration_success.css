@@ -20,8 +20,7 @@ p {
 
 
 a {
-    display: inline-block;
-    padding: 10px 20px;
+    padding: 10px;
     background-color: #6ed9ac;
     color: rgb(0, 0, 0);
     border-radius: 20px;
