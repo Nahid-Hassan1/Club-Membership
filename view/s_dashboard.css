@@ -1,0 +1,111 @@
+ body {
+            font-family: Arial, sans-serif;
+            background-color: #c1ddcc;
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+            display: flex;
+        }
+
+        .sidebar {
+            width: 220px;
+            background-color: #2acec6;
+            color: black;
+            padding: 20px;
+            height: 100vh;
+            box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+        }
+
+        .sidebar h2 {
+            font-size: 24px;
+            margin-bottom: 30px;
+        }
+
+        .sidebar a {
+            text-decoration: none;
+            color: black;
+            display: block;
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+
+        .sidebar a:hover {
+            color: #333;
+        }
+
+        .main-content {
+            flex-grow: 1;
+            padding: 20px;
+        }
+
+        h2 {
+            color: rgb(71, 97, 171);
+            font-size: 30px;
+            text-align: center;
+            background-color: #c1ddcc;
+            padding: 15px;
+        }
+
+        table {
+    width: 100%;
+    max-width: 500px; /* Adjust this value as needed */
+    margin: auto;
+    border-collapse: collapse;
+    background-color: #2acec6;
+    border: 3px solid #a0ffff;
+    table-layout: fixed; /* Force columns to respect width */
+}
+
+td {
+    padding: 10px;
+    border: 1px solid #000000;
+    font-weight: bold;
+    word-wrap: break-word;
+}
+
+input[type="text"], input[type="tel"], select {
+    width: 95%; /* Slightly less than full width to prevent overflow */
+    padding: 6px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+
+        button {
+            padding: 10px;
+            background-color: #6ed9ac;
+            color: black;
+            cursor: pointer;
+            margin-top: 10px;
+            border-radius: 15px;
+            font-weight: bold;
+            width: 100%;
+        }
+
+        button:hover {
+            background-color: #2acec6;
+        }
+
+        .error {
+            color: red;
+            font-size: 0.9em;
+            margin-top: 4px;
+        }
+
+        .success {
+            color: green;
+            text-align: center;
+            margin-bottom: 15px;
+        }
+
+
+        .profile-section {
+    background-color: #f4fff8;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
